@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  cursor: grab;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111;
+  width: 100%vh;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 220px;
+}
+.logo {
+  font-size: 165%;
+  font-weight: 700;
+  color: wheat;
+}
+
+ul {
+  float: left;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: 700;
+}
+ul li a {
+  text-decoration: none;
+  color: wheat;
+}
+ul li a:hover {
+  color: turquoise;
+  transition: 0.3s black;
+  border-bottom: 2px solid turquoise;
+}
+h6 {
+  color: wheat;
+  font-size: large;
+}
+h1 {
+  color: wheat;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 50px;
+}
+h2 {
+  color: wheat;
+  padding-top: 10px;
+  font-size: 50px;
+}
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 90px;
+  margin-top: 130px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.photo {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+.download {
+  display: flex;
+  gap: 1rem;
+  margin-top: 15px;
+}
+.bat {
+  width: 135px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: wheat;
+  border: wheat;
+  text-decoration: none;
+  color: #111;
+  font-size: large;
+  font-weight: 700;
+}
+.bat:hover {
+  color: wheat;
+  background-color: #111;
+  border: 2px solid turquoise;
+}
+.git {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.baab {
+  height: 25px;
+  width: 25px;
+  fill: wheat;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  padding: 50px 120px;
+}
+.heed {
+  width: 100%;
+}
+.heed h1 {
+  font-size: 90px;
+}
+
+.teed {
+  display: flex;
+  max-width: 700px;
+  gap: 20px;
+  justify-content: space-between;
+  border: 2px solid wheat;
+  padding: 20px;
+}
+h3 {
+  color: wheat;
+  font-size: 25px;
+  padding-top: 40px;
+}
+h4 {
+  color: wheat;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+h5 {
+  color: wheat;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: start;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.skill h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  color: turquoise;
+}
+.can {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  padding: 40px;
+}
+.haam {
+  width: 70px;
+  height: 70px;
+  fill: wheat;
+}
+.haam:hover {
+  fill: turquoise;
+}
+.proj {
+  margin-top: 250px;
+}
+.proo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proo h1 {
+  font-size: 100px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 100px;
+}
+.pro1,
+.pro2,
+.pro3 {
+  border: 5px solid turquoise;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+}
+.pro1 img,
+.pro2 img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.pro1:hover,
+.pro2:hover,
+.pro3:hover {
+  opacity: 1;
+  box-shadow: 0 0 10px turquoise;
+  transform: scale(1.2);
+  transition: all 00.3s ease;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+.phone {
+  margin-top: 70px;
+  border: 2px solid turquoise;
+  border-radius: 10px;
+  padding: 20px 100px 20px 100px;
+  margin-bottom: 200px;
+}
+.mail {
+  font-size: xx-large;
+}
+.linkd {
+  text-decoration: none;
+  color: wheat;
+}
+.linkd:hover {
+  color: turquoise;
+}
+.top h1 {
+  font-size: 100px;
+}
+.telee {
+  width: 22px;
+  height: 22px;
+}
+footer {
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 200;
+  font-size: small;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+@media (max-width: 950px) {
+  .containers {
+    flex-direction: column;
+  }
+  .nav {
+    padding: 20px 30px;
+    justify-content: center;
+  }
+  .nav ul {
+    display: none;
+  }
+  .profile {
+    text-align: center;
+  }
+  .download {
+    justify-content: center;
+  }
+  .git {
+    justify-content: center;
+  }
+  .about {
+    margin-top: 50px;
+    padding: 30px 20px;
+  }
+  .heed h1 {
+    font-size: 50px;
+  }
+  .teed {
+    flex-direction: column;
+  }
+  .logos {
+    margin-top: 30px;
+  }
+  .skill {
+    font-size: 50px;
+  }
+  .can {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 30px;
+  }
+  .haam {
+    width: 50px;
+    height: 50px;
+  }
+  .phone {
+    padding: 10px;
+  }
+  .proj {
+    margin-top: 100px;
+  }
+  .proo h1 {
+    font-size: 60px;
+  }
+  .container {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 60px;
+  }
+  .pro1,
+  .pro2,
+  .pro3,
+  .pro1 img,
+  .pro2 img,
+  .pro3 img {
+    height: 230px;
+    width: 230px;
+  }
+  .top {
+    margin-top: 100px;
+  }
+  .top h1 {
+    font-size: 60px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: none;
+  }
+  .mail {
+    font-size: small;
+  }
+  .telee {
+    width: 10px;
+    height: 10px;
+  }
+  footer {
+    margin-bottom: 20px;
+    margin-top: none;
+    letter-spacing: none;
+    font-size: smaller;
+    font-weight: 50;
+  }
+}
